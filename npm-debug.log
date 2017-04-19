@@ -1,0 +1,160 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'n' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.1
+4 verbose install initial load of C:\Users\ASUS_YHR\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\ASUS_YHR\AppData\Roaming\npm\package.json
+6 silly cache add args [ 'n', null ]
+7 verbose cache add spec n
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'n',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'n',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed n@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for n
+11 info addNameTag [ 'n', 'latest' ]
+12 silly mapToRegistry name n
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/n
+16 verbose addNameTag registry:https://registry.npmjs.org/n not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/n
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 20:38:29
+20 verbose request id 6a82d78de63566a9
+21 http request GET https://registry.npmjs.org/n
+22 http 200 https://registry.npmjs.org/n
+23 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+23 verbose headers   'content-type': 'application/json',
+23 verbose headers   'last-modified': 'Mon, 10 Apr 2017 19:32:51 GMT',
+23 verbose headers   'content-encoding': 'gzip',
+23 verbose headers   'cache-control': 'max-age=300',
+23 verbose headers   'content-length': '11372',
+23 verbose headers   'accept-ranges': 'bytes',
+23 verbose headers   date: 'Wed, 12 Apr 2017 12:38:30 GMT',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   age: '269',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'x-served-by': 'cache-nrt6129-NRT',
+23 verbose headers   'x-cache': 'HIT',
+23 verbose headers   'x-cache-hits': '3',
+23 verbose headers   'x-timer': 'S1492000711.518644,VS0,VE0',
+23 verbose headers   vary: 'Accept-Encoding' }
+24 silly get cb [ 200,
+24 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+24 silly get     'content-type': 'application/json',
+24 silly get     'last-modified': 'Mon, 10 Apr 2017 19:32:51 GMT',
+24 silly get     'content-encoding': 'gzip',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     'content-length': '11372',
+24 silly get     'accept-ranges': 'bytes',
+24 silly get     date: 'Wed, 12 Apr 2017 12:38:30 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     age: '269',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-nrt6129-NRT',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '3',
+24 silly get     'x-timer': 'S1492000711.518644,VS0,VE0',
+24 silly get     vary: 'Accept-Encoding' } ]
+25 verbose get saving n to C:\Users\ASUS_YHR\AppData\Roaming\npm-cache\registry.npmjs.org\n\.cache.json
+26 verbose correctMkdir C:\Users\ASUS_YHR\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 silly addNameTag next cb for n with tag latest
+28 silly addNamed n@2.1.7
+29 verbose addNamed "2.1.7" is a plain semver version for n
+30 silly mapToRegistry name n
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/n
+34 verbose addRemoteTarball https://registry.npmjs.org/n/-/n-2.1.7.tgz not in flight; adding
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/n/-/n-2.1.7.tgz',
+35 verbose addRemoteTarball   '13fe032a5bed0797983bddf27eb0606517c73c74' ]
+36 info retry fetch attempt 1 at 20:38:30
+37 info attempt registry request try #1 at 20:38:30
+38 http fetch GET https://registry.npmjs.org/n/-/n-2.1.7.tgz
+39 http fetch 200 https://registry.npmjs.org/n/-/n-2.1.7.tgz
+40 silly fetchAndShaCheck shasum 13fe032a5bed0797983bddf27eb0606517c73c74
+41 verbose addTmpTarball C:\Users\ASUS_YHR\AppData\Local\Temp\npm-7764-e52af6a1\registry.npmjs.org\n\-\n-2.1.7.tgz not in flight; adding
+42 verbose addTmpTarball already have metadata; skipping unpack for n@2.1.7
+43 verbose correctMkdir C:\Users\ASUS_YHR\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+44 silly cache afterAdd n@2.1.7
+45 verbose afterAdd C:\Users\ASUS_YHR\AppData\Roaming\npm-cache\n\2.1.7\package\package.json not in flight; writing
+46 verbose correctMkdir C:\Users\ASUS_YHR\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+47 verbose afterAdd C:\Users\ASUS_YHR\AppData\Roaming\npm-cache\n\2.1.7\package\package.json written
+48 silly install resolved [ { name: 'n',
+48 silly install resolved     description: 'Interactively Manage All Your Node Versions',
+48 silly install resolved     version: '2.1.7',
+48 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+48 silly install resolved     homepage: 'https://github.com/tj/n',
+48 silly install resolved     bugs: { url: 'https://github.com/tj/n/issues' },
+48 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+48 silly install resolved     keywords:
+48 silly install resolved      [ 'nvm',
+48 silly install resolved        'node',
+48 silly install resolved        'version',
+48 silly install resolved        'manager',
+48 silly install resolved        'switcher',
+48 silly install resolved        'node',
+48 silly install resolved        'binary',
+48 silly install resolved        'env' ],
+48 silly install resolved     bin: { n: './bin/n' },
+48 silly install resolved     repository: { type: 'git', url: 'git://github.com/tj/n.git' },
+48 silly install resolved     preferGlobal: true,
+48 silly install resolved     os: [ '!win32' ],
+48 silly install resolved     engines: { node: '*' },
+48 silly install resolved     license: 'MIT',
+48 silly install resolved     gitHead: 'bcec70577549a9a11d89d10284f8890f0debf6d6',
+48 silly install resolved     _id: 'n@2.1.7',
+48 silly install resolved     scripts: {},
+48 silly install resolved     _shasum: '13fe032a5bed0797983bddf27eb0606517c73c74',
+48 silly install resolved     _from: 'n@latest',
+48 silly install resolved     _npmVersion: '4.4.1',
+48 silly install resolved     _nodeVersion: '7.7.3',
+48 silly install resolved     _npmUser: { name: 'troy0820', email: 'troy0820@gmail.com' },
+48 silly install resolved     dist:
+48 silly install resolved      { shasum: '13fe032a5bed0797983bddf27eb0606517c73c74',
+48 silly install resolved        tarball: 'https://registry.npmjs.org/n/-/n-2.1.7.tgz' },
+48 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+48 silly install resolved     _npmOperationalInternal:
+48 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+48 silly install resolved        tmp: 'tmp/n-2.1.7.tgz_1490918508873_0.5233936926815659' },
+48 silly install resolved     directories: {},
+48 silly install resolved     _resolved: 'https://registry.npmjs.org/n/-/n-2.1.7.tgz' } ]
+49 info install n@2.1.7 into C:\Users\ASUS_YHR\AppData\Roaming\npm
+50 info installOne n@2.1.7
+51 verbose installOne of n to C:\Users\ASUS_YHR\AppData\Roaming\npm not in flight; installing
+52 verbose correctMkdir C:\Users\ASUS_YHR\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+53 verbose lock using C:\Users\ASUS_YHR\AppData\Roaming\npm-cache\_locks\n-1452c8b8551749c1.lock for C:\Users\ASUS_YHR\AppData\Roaming\npm\node_modules\n
+54 verbose unlock done using C:\Users\ASUS_YHR\AppData\Roaming\npm-cache\_locks\n-1452c8b8551749c1.lock for C:\Users\ASUS_YHR\AppData\Roaming\npm\node_modules\n
+55 verbose stack Error: Unsupported
+55 verbose stack     at checkPlatform (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-install-checks\index.js:47:14)
+55 verbose stack     at Array.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+55 verbose stack     at LOOP (D:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+55 verbose stack     at D:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:18:7
+55 verbose stack     at checkEngine (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-install-checks\index.js:26:10)
+55 verbose stack     at Array.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+55 verbose stack     at LOOP (D:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+55 verbose stack     at chain (D:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+55 verbose stack     at D:\Program Files\nodejs\node_modules\npm\lib\install.js:1038:5
+55 verbose stack     at D:\Program Files\nodejs\node_modules\npm\lib\utils\locker.js:39:7
+56 verbose pkgid n@2.1.7
+57 verbose cwd E:\MYweb\node_blog
+58 error Windows_NT 6.1.7601
+59 error argv "D:\\Program Files\\nodejs\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "n"
+60 error node v4.4.1
+61 error npm  v2.14.20
+62 error code EBADPLATFORM
+63 error notsup Unsupported
+63 error notsup Not compatible with your operating system or architecture: n@2.1.7
+63 error notsup Valid OS:    !win32
+63 error notsup Valid Arch:  any
+63 error notsup Actual OS:   win32
+63 error notsup Actual Arch: x64
+64 verbose exit [ 1, true ]
