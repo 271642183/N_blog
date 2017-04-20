@@ -1,8 +1,13 @@
 # node_blog
-node后台渲染的博客系统
+node版本6.9.1
 
+##node常用命令
+启动：
+node index
+版本：
+node -v
 
-git常用命令
+##git常用命令
 
 初始化：
 git init
@@ -30,6 +35,15 @@ Master表示:[分支]
 Git clone git@github.com:271642183/N_blog.git   
 
 Git status查看状态
+
+
+##nvmw常用命令
+
+版本列表：
+nvmw ls
+切换版本：
+nvmw use 6.9.1   //6.9.1版本号
+
 
 
 
