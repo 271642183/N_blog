@@ -11,7 +11,7 @@ var checkNotLogin = require('../middlewares/check').checkNotLogin;
 
 // GET /signup 注册页
 router.get('/', checkNotLogin, function(req, res, next){
-	console.log('数据填充到注册页模板n(*≧▽≦*)n');
+	console.log('构造注册页模板n(*≧▽≦*)n');
 	res.render('signup');
 
 });
@@ -32,7 +32,7 @@ router.post('/', checkNotLogin, function(req, res, next){
 * 
 */
 	try {
-		console.log('检测表单疏漏^_^');
+		console.log('检测填写疏漏^_^');
 		if (!(name.length >= 1 && name.length <= 10)) {
       		throw new Error('名字请限制在 1-10 个字符');
     	}
@@ -76,13 +76,13 @@ router.post('/', checkNotLogin, function(req, res, next){
   			//将用户信息存入 session
   			delete user.password;
   			req.session.user = user;
-  			console.log('努力刻进记忆中^_^');
+  			console.log('你的名字，刻骨铭心^_^》》信息注册中');
   			//写入 flash
   			req.flash('success', '注册成功');
   			// 跳转到首页
   			res.redirect('/posts');
   		})
-  		.catch(function(){
+  		.catch(function(e){
   			// 注册失败，异步删除上传的头像
       		fs.unlink(req.files.avatar.path);
       		// 用户名被占用则跳回注册页，而不是错误页
