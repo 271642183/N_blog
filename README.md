@@ -1,13 +1,13 @@
 # node_blog
 node版本6.9.1
 
-##node常用命令
+## node常用命令
 启动：
 node index
 版本：
 node -v
 
-##git常用命令
+## git常用命令
 
 初始化：
 git init
@@ -37,7 +37,7 @@ Git clone git@github.com:271642183/N_blog.git
 Git status查看状态
 
 
-##nvmw常用命令
+## nvmw常用命令
 
 版本列表：
 nvmw ls
