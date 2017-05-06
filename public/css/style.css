@@ -76,3 +76,9 @@ a:hover {
 .post-content .tag.right a {
   color: #999;
 }
+
+/* ---------- code highlight--------------- */
+code{
+  display:block;padding:.5em 2em;background:#23241f;
+  color: #fff;
+}
