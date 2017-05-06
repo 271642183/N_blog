@@ -15,8 +15,7 @@ Post.plugin('addCommentsCount',{
             return post;
           });
 
-      });
-    );
+      }));
   },
   afterFindOne: function (post) {
     if (post) {

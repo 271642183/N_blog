@@ -165,7 +165,7 @@ router.get('/:postId/comment/:commentId/remove', checkLogin, function(req, res, 
 
   CommentModel.delCommentById(commentId, author)
     .then(function(){
-    	req.flash('success'.'留言删除成功');
+    	req.flash('success','留言删除成功');
     	res.redirect('back');
     })
     .catch(next);
